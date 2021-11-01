@@ -3,7 +3,7 @@ export default function Greeting({ user, color,  gratitudes, hasSubmittedToday  
     return (
         <div className="text-white text-6xl">
             <h1>
-                Hello, <span className={color}>{user.name}</span>!
+                Hello, chainani@chapman.edu <span className={color}>{user.name}</span>
             </h1>
             {
                 hasSubmittedToday ? (
